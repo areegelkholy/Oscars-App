@@ -2,7 +2,7 @@
 
 A full-stack data platform that scrapes, stores, and analyzes 96 years of Academy Awards (Oscars) data using custom-built pipelines. The system enables users to explore nominations, win patterns, and create their own hypothetical award predictions.
 
-## 📌 Project Overview
+## Project Overview
 
 This project involved building an end-to-end system starting from schema design to web scraping, database population, and a Flask-powered web interface.
 
@@ -14,13 +14,13 @@ This project involved building an end-to-end system starting from schema design 
 - User registration, login, and custom nomination features
 - Advanced queries (e.g. top directors by wins, non-English Oscar winners, dream team generator)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python** (BeautifulSoup, Flask)
 - **MySQL** (remote DB hosted via db4free.net)
 - **HTML/CSS** (for frontend templates)
 
-## 📊 Database Design
+## Database Design
 
 - ERD and relational model designed to represent complex relationships between:
   - Movies
@@ -28,14 +28,14 @@ This project involved building an end-to-end system starting from schema design 
   - Awards and categories
   - Nominations and outcomes
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 - End-to-end data pipeline construction
 - Web scraping at scale and handling noisy, inconsistent sources
 - Real-world database modeling and integration
 - Building dynamic query-based web applications
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Inside the folder, locate and double-click the `run_oscars_app.exe"` file
